@@ -4,29 +4,33 @@ body {
    text-align: center;
    border-color: #fff;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   
+   max-width:fit-content
+}
+p{
+    text-align: center;
 }
 
 h1{
     color: #fff;
-    align-items: center;
+   text-align: center;
 }
 
 .flex-container-wrap{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .flex-container-column{
     display: flex;
     flex-direction: column;
- 
+    align-items: center;
 }
 
 .flex-container-space{
     display: flex;
-   justify-content: space-around;
-  
+   justify-content:space-around;
+   align-items: center;
 }
 
 .flex-item{
@@ -35,4 +39,9 @@ h1{
    margin: 1em;
    padding: 1em;
    font-size: 2em;
+   color: rgb(62, 163, 16);
+}
+article{
+    text-align: center;
+    margin:5em
 }
