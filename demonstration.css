@@ -34,7 +34,7 @@ h1{
 }
 
 .flex-item{
-    background-color: (142,168,195);
+    background-color: rgba(11, 33, 56, 0.774);
    max-width: 10%;
    margin: 1em;
    padding: 1em;
