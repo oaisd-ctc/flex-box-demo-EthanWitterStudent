@@ -21,9 +21,39 @@ h1{
     align-items: center;
 }
 
+.flex-container-wrap-backwards{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+
+.flex-container-wrap-lazy{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.flex-container-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-container-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
 .flex-container-column{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.flex-container-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
     align-items: center;
 }
 
