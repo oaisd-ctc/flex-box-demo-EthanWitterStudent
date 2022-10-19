@@ -7,7 +7,7 @@
 
 <body>
     <article>
-            <h1>Wrap containers:</h1>
+            <h2>Wrap containers:</h2>
             <h3>The Wrap property can be used to make items adjust to the size of the browser window </h3>
         <p>This is an example of the wrap property: flex-wrap: wrap (adjust your browser window to see)</p>
         <div class="flex-container-wrap">  
@@ -57,10 +57,11 @@
             <div class="flex-item">L</div>
             <div class="flex-item">M</div>
             <div class="flex-item">N</div>
+            </div>
     </article>
     <hr>
     <article>
-    <h1>Flex-Direction Containers:</h1>
+    <h2>Flex-Direction Containers:</h2>
          <h3>The flex-direction property can determine the direction the items are "stacked"</h3>
         <p>This is an example of the "row" value</p>
         <div class="flex-container-row">
@@ -94,14 +95,81 @@
     </article>
     <hr>
     <article>
-            <h1>This is a Space-Around container:</h1>
-            <p>(Adds extra space before and after the items)</p>
-        <div class="flex-container-space">
+            <h2>Justify-Content Containers:</h2>
+            <h3>The justify-content container can be used to align items on the webpage</h3>
+            <p>This is an example of the "center" value</p>
+            <p>(Note: I've found "align-items" works here as well)</p>
+        <div class="flex-container-justify-center">
             <div class="flex-item">A</div>
             <div class="flex-item">B</div>
             <div class="flex-item">C</div>
             <div class="flex-item">D</div>
-        </div>
+        </div> <br>
+        <p>You can make the items align to the left with the "flex-start" value</p>
+        <div class="flex-container-justify-start">
+            <div class="flex-item">A</div>
+            <div class="flex-item">B</div>
+            <div class="flex-item">C</div>
+            <div class="flex-item">D</div>
+        </div> <br>
+        <p>"flex-end" is the opposite, aligning them to the right</p>
+        <div class="flex-container-justify-end">
+            <div class="flex-item">A</div>
+            <div class="flex-item">B</div>
+            <div class="flex-item">C</div>
+            <div class="flex-item">D</div>
+        </div> <br>
+        <h3>Where Justify-Content is unique is its ability to control spacing</h3>
+        <p>Check out the "space-around" value</p>
+    <div class="flex-container-justify-around">
+        <div class="flex-item">A</div>
+        <div class="flex-item">B</div>
+        <div class="flex-item">C</div>
+        <div class="flex-item">D</div>
+    </div> <br>
+    <p>Neat</p>
+    <p>Similarly, the "space-between" value adds space between the lines of the items</p>
+    <p>(Where they differ is "space-around" adds space between, before, and after the lines)</p>
+    <div class="flex-container-justify-between">
+        <div class="flex-item">A</div>
+        <div class="flex-item">B</div>
+        <div class="flex-item">C</div>
+        <div class="flex-item">D</div>
+    </div> <br>
+    </article> <hr>
+    
+    <h1>These have all been examples of Container flex properties. However, another kind of flex element exists: the Item flex properties. </h1>
+    <p>These properties have much more broad use than the Container properties, though are admittedly less flashy.</p>
+    <p>Where they also differ is they use Inline CSS, where as Containers like the ones above use External CSS</p>
+    <article> 
+    <h2>For example, the Order property:</h2>
+    <p>The order propety changes the order the items appear in</p>
+    <div class="flex-basic">
+        <div class="flex-item" style="order: 2">A</div>
+        <div class="flex-item" style="order: 4">B</div>
+        <div class="flex-item" style="order: 1">C</div>
+        <div class="flex-item" style="order: 3">D</div>
+    </div>
+    <h2>There is also the Flex-Grow propety:</h2>
+    <p>As the name suggests, it makes one of the items grow in size</p>
+    <div class="flex-basic">
+        <div class="flex-item" style="flex-grow: 5;">A</div>
+        <div class="flex-item">B</div>
+        <div class="flex-item">C</div>
+        <div class="flex-item">D</div>
+    </div>
+    <h2>And there is the opposite: the Flex-Shrink property</h2>
+    <p>You'll never guess what this one does</p>
+    <p>(Do note the item's size needed to increase to show this)</p>
+    <div class="flex-basic">
+        <div class="flex-item" style="flex-grow: 1;">A</div>
+        <div class="flex-item" style="flex-shrink: 1;">B</div>
+        <div class="flex-item" style="flex-grow: 1;">C</div>
+        <div class="flex-item" style="flex-grow: 1;">D</div>
+    </div>
     </article>
+    <hr> 
+    <h3>As I hope you can see, flex has many options and functions for customizing a webpage, so many that this simple tutorial doesn't cover all of them!</h3>
+    <h4>They are an extremely useful function of CSS, and hopefully you are now better equipped to use it.</h4>
 </body>
 </html>

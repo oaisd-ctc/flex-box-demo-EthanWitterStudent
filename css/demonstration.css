@@ -15,6 +15,11 @@ h1{
    text-align: center;
 }
 
+.flex-basic{
+    display: flex;
+    justify-content: center;
+}
+
 .flex-container-wrap{
     display: flex;
     flex-wrap: wrap;
@@ -57,9 +62,33 @@ h1{
     align-items: center;
 }
 
-.flex-container-space{
+.flex-container-justify-center{
+    display: flex;
+   justify-content:center;
+   align-items: center;
+}
+
+.flex-container-justify-start{
+    display: flex;
+   justify-content:flex-start;
+   align-items: center;
+}
+
+.flex-container-justify-end{
+    display: flex;
+   justify-content:flex-end;
+   align-items: center;
+}
+
+.flex-container-justify-around{
     display: flex;
    justify-content:space-around;
+   align-items: center;
+}
+
+.flex-container-justify-between{
+    display: flex;
+   justify-content:space-between;
    align-items: center;
 }
 
