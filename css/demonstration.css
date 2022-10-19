@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(22, 25, 37);
+   color: #fff;
+   text-align: center;
+   border-color: #fff;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   max-width:fit-content
+}
+p{
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+   text-align: center;
+}
+
+.flex-basic{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.flex-container-wrap-backwards{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+
+.flex-container-wrap-lazy{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.flex-container-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-container-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.flex-container-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-container-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.flex-container-justify-center{
+    display: flex;
+   justify-content:center;
+   align-items: center;
+}
+
+.flex-container-justify-start{
+    display: flex;
+   justify-content:flex-start;
+   align-items: center;
+}
+
+.flex-container-justify-end{
+    display: flex;
+   justify-content:flex-end;
+   align-items: center;
+}
+
+.flex-container-justify-around{
+    display: flex;
+   justify-content:space-around;
+   align-items: center;
+}
+
+.flex-container-justify-between{
+    display: flex;
+   justify-content:space-between;
+   align-items: center;
+}
+
+.flex-item{
+    background-color: rgba(11, 33, 56, 0.774);
+   max-width: 10%;
+   margin: 1em;
+   padding: 1em;
+   font-size: 2em;
+   color: rgb(62, 163, 16);
+}
+article{
+    text-align: center;
+    margin:5em
+}
